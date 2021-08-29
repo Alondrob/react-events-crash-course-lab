@@ -22,7 +22,8 @@ export function init() {
   colors = [green, red, yellow]
 }
 
-export function drawChromeBoiAtCoords(x, y) {
+export function drawChromeBoiAtCoords(x, y) 
+{
   
   const canvas = document.querySelector("canvas") // sloppy but we haven't introduced lifecycle methods and canvas wouldn't be rendered
   const ctx = canvas.getContext("2d")
